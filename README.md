@@ -4,7 +4,7 @@ Use this code to implement celery in your application.
 
 #
 # !Note Redis or RabitMQ must install on your machine as celery requires a broker to run.
-in this application, we will be Redis.
+in this application, we will be using Redis.
 
 ## Installation
 
