@@ -94,8 +94,10 @@ def taskid(task_id):
         })
 
 ```
+#
+# Make sure that Redis server must be running.
 # 
-# command to run flask application in terminal 
+# command to run flask application in terminal. 
 ```bash
 python3 app.py
 ```
