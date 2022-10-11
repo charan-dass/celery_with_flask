@@ -39,7 +39,7 @@ def index():
 
                 }) 
 
-# Get the status useing this route
+# Get the status using this route
 @app.route('/result/<task_id>')
 def taskid(task_id):
     output = celery.AsyncResult(task_id)  
